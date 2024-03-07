@@ -1,0 +1,30 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.cards {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  overflow-x: scroll;
+}
+
+.title {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.credit-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img {
+  height: 120px;
+  width: 80px;
+}
+
+.name {
+  color: grey;
+}

@@ -11,11 +11,11 @@ export default function Navigation() {
       <ul>
         <li>
           <Link href="/">Home</Link>
-          <>{path === "/" ? " fire" : ""}</>
+          <>{path === "/" ? "🔥" : ""}</>
         </li>
         <li>
           <Link href="/about-us">About Us</Link>
-          {path === "/about-us" ? " fire" : ""}
+          {path === "/about-us" ? "🔥" : ""}
         </li>
       </ul>
     </nav>

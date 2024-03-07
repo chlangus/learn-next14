@@ -7,7 +7,9 @@ export const metadata = {
 };
 
 // credit
-
+// https://nomad-movies.nomadcoders.workers.dev/
+// - /movies/:id/providers
+// - /movies/:id/similar
 async function getMovies() {
   const response = await fetch(API_URL);
   const json = await response.json();
